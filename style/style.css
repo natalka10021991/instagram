@@ -36,8 +36,15 @@ li {
 
 .photos__item {
     margin-right: 5px;
+    margin-bottom: 5px;
+    width: 200px;
+    height: 200px;
 }
 
 .photos__item:nth-child(3n+3) {
     margin-right: 0;
+}
+
+.photos__photo {
+    max-width: 100%;
 }
